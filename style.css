@@ -1,0 +1,50 @@
+#outerCircle{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#innerCircle{
+    height: 150px;
+    width: 150px;
+    background-color: darkblue;
+    border: white solid 2px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+    top: 100px;
+}
+
+#prediction{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#question-form{
+    text-align: center;
+}
+
+#question-box, #button{
+    font-size: 20px;
+}
+#question-box{
+    width: 200px;
+    text-align: center;
+}
+#button{
+    cursor: pointer;
+}
+#button:hover{
+    background: darkgrey;
+}
+
+#questionDiv{
+    font-size: 24px;
+}
